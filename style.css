@@ -22,6 +22,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: 30px;
 }
 
 .nav > button {
@@ -47,10 +48,11 @@ header {
 
 .nav > span {
   margin-top: 13px;
-  width: 396px;
+  width: 346px;
   height: 46px;
   display: flex;
   position: relative;
+  left: 60px;
 }
 
 .nav > span > img {
@@ -60,8 +62,8 @@ header {
   border-radius: 0px 8px 8px 0px;
 }
 
-.buttons{
-  margin-left: 100px;
+.buttons {
+  margin-left: 196px;
   margin-top: 12px;
 }
 .buttons > button {
@@ -79,5 +81,42 @@ header {
   );
   border-radius: 10px;
   border: none;
-  margin-left: 40px;
+  margin-left: 10px;
 }
+
+
+
+.section-1 {
+  margin-top: 40px;
+} 
+
+.wrapper{
+  position: relative;
+
+}
+
+.carousel-inner{
+  border-radius: 40px;
+  position: relative !important;
+
+}
+
+.carousel-control-prev , .carousel-control-next {
+  position:absolute !important;
+
+  width: 42px;
+  height:42px;
+   background: linear-gradient(270deg, #4d5ef6 0%, #f64d4d 100%);
+   border-radius: 50%;
+   top: 46%;
+
+}
+
+.carousel-control-next{
+   right: -62px;
+}
+
+.carousel-control-prev{
+  left: -62px;
+}
+
